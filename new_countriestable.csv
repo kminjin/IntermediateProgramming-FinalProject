@@ -1,0 +1,193 @@
+Country,Population,Percentage of World Population,Total Area (km2),Percentage Water,Total Nominal GDP,Per Capita GDP,Continent_Name
+ China,1397040000,18.1,95969612,2.8,$14.216 trillion ,"$10,153 ",Asia
+ India,1346350000,17.5,32872632,9.6,"$2,716 trillion ","$2,036 ",Asia
+ United States,329085000,4.27,9833523,6.97,$20.891 trillion ,"$62,518 ",North America
+ Brazil,209815000,2.72,85157672,0.65,$1.929 trillion ,"$9,159 ",South America
+ Pakistan,204435000,2.65,8819132,2.86,$304.4 billion ,"$1,629 ",Asia
+ Nigeria,193392517,2.51,9237682,1.4,$447.013 billion ,"$2,244 ",Africa
+ Bangladesh,166437000,2.16,1475702,6.4,$313.509 billion ,"$1,882 ",Asia
+ Russia,146793744,1.91,171251912,13.0,$1.649 trillion ,"$11,461 ",Europe
+ Mexico,126577691,1.64,19725502,2.5,$1.199 trillion ,"$9,614 ",North America
+ Japan,126220000,1.64,3779732,3.55,$5.071 trillion ,"$40,106 ",Asia
+ Philippines,107537000,1.4,3000002,0.61,$354 billion ,"$3,246 ",Asia
+ Ethiopia,98665000,1.28,11043002,0.7,$88.170 billion,$921,Africa
+ Egypt,98601800,1.28,10104082,0.632,$301.056 billion ,"$3,005 ",Africa
+ Vietnam,95354000,1.24,3312122,6.38,$241.434 billion ,"$2,552 ",Asia
+ Democratic Republic of the Congo,86727573,1.13,23454092,3.32, $46.117 billion, $501,Africa
+ Germany,82979100,1.08,3573862,83000000.0,$4.117 trillion ,"$49,692 ",Europe
+ Iran,82392600,1.07,16481952,7.07,$334 billion ,"$4,006",Asia
+ Turkey,82003882,1.06,7833562,1.3,$706 billion ,"$8,506 ",Europe
+ France,66989000,0.87,6406792,5516952.0,$2.845 trillion ,"$43,500 ", Europe
+ Thailand,66355305,0.86,5131202,0.4,$516 billion,"$7,607",Asia
+ United Kingdom,66040229,0.86,2424952,1.34,$2.936 trillion ,"$44,177 ",Europe
+ Italy,60375749,0.78,3013402,2.4,$2.072 trillion ,"$34,260 ",Europe
+ South Africa,57725600,0.75,12210372,0.38,$386 billion ,"$6,609 ",Africa
+ Tanzania,55890747,0.73,9473032,6.4,$61.032 billion,"$1,172",Africa
+ Myanmar,54339766,0.71,6765782,3.06,$71.543 billion ,"$1,354 ",Asia
+ Kenya,52214791,0.68,5803672,2.3,$99.246 billion,"$2,010",Africa
+ South Korea,51811167,0.67,1003632,0.3,$1.655 trillion ,"$32,046 ",Asia
+ Colombia,49850000,0.65,11417482,8.8,$355.163 billion ,"$7,049",South America
+ Spain,46733038,0.61,5059902,1.04,$1.506 trillion ,"$32,559 ",Europe
+ Argentina,44938712,0.58,27804002,1.57,$477.743 billion ,"$10,604 ",South America
+ Algeria,43378027,0.56,23817412,1.1,$200.171  billion ,"$4,645 ",Africa
+ Ukraine,42122657,0.55,6036282,7.0,$133 billion ,"$3,133 ",Europe
+ Sudan,41470620,0.54,18860682,39578828.0,$138.090 billion,"$3,459",Africa
+ Uganda,40006700,0.52,2410382,15.39,$26.391 billion,$700,Africa
+ Iraq,39127900,0.51,4370722,1.1,$250.070 billion ,"$6,116 ",Asia
+ Poland,38433600,0.5,3126962,3.07,$593.295 billion ,"$15,629",Europe
+ Canada,37452600,0.486,99846702,8.92,$1.820 trillion ,"$48,601 ",North America
+ Morocco,34999200,0.45399999999999996,7108502,0.055999999999999994,$122.458 billion,"$3,441",Africa
+ Uzbekistan,33460073,0.43,4489782,4.9,$40.259 billion ,"$1,238 ",Asia
+ Saudi Arabia,33413660,0.43,21496902,0.7,$762.259 billion ,"$22,507 ",Asia
+ Malaysia,32699200,0.425,3308032,0.3,$372.628 billion ,"$11,338 ",Asia
+ Peru,32495510,0.42,12852162,0.41,$239.218 billion ,"$7,118 ",South America
+ Venezuela,32219521,0.42,9164452,3.2,$76 billion ,"$2,724 ",South America
+ Afghanistan,31575018,0.41,6522302,0.0,$21.657 billion ,$601 ,Asia
+ Ghana,30280811,0.39,2395672,4.61,$58.92 billion,"$2,081",Africa
+ Angola,30175553,0.39,12467002,0.0,$124.600 billion ,"$4,101 ",Africa
+ Nepal,29609623,0.38,1471812,2.8,$27 billion,$919,Asia
+ Yemen,29579986,0.38,5279682,0.0,$28.524 billion ,$925 ,Asia
+ Mozambique,28861863,0.37,8015902,2.2,$12.345 billion,$417,Africa
+ Ivory Coast,25823071,0.34,3224632,1.4,$48.142 billion,"$1,879",Europe
+ North Korea,25450000,0.33,1205402,0.11,$25 billion,"$1,000",Asia
+ Australia,25336000,0.32899999999999996,76920242,0.76,$1.500 trillion ,"$59,655 ",Oceania
+ Madagascar,25263000,0.33,5870412,55012.0,$10.372 billion,$405,Africa
+ Cameroon,24348251,0.32,4754422,0.57,$38.445 billion ,"$1,544 ",Africa
+ Taiwan,23589192,0.31,361972,23577271.0,$603 billion,"$25,534",Asia
+ Niger,22314743,0.29,12670002,0.02,$9.869 billion ,$510 ,Africa
+ Sri Lanka,21670112,0.28,656102,4.4,$92.504 billion ,"$4,265 ",Asia
+ Burkina Faso,20870060,0.27,2742002,0.146,$14.192 billion,$729,Africa
+ Romania,19523621,0.25,2383972,3.0,$244.158 billion ,"$12,506 ",Europe
+ Chile,19107216,0.25,756096,1.07,$305 billion ,"$16,277 ",South America
+ Syria,18499181,0.24,1851802,1.1,$24.6 billion,"$1,400",Asia
+ Kazakhstan,18462568,0.24,27249002,1.7,$195 billion ,"$10,447 ",Asia
+ Guatemala,17679735,0.23,1088892,0.4,$79.109 billion ,"$4,582 ",North America
+ Malawi,17563749,0.23,1184842,20.6,$6.364 billion,$331,Africa
+ Zambia,17381168,0.23,7526182,1.0,$23.137 billion,"$1,342",Africa
+ Netherlands,17313600,0.225,415432,18.41,$914 billion ,"$53,016 ",Europe
+ Ecuador,17224200,0.22399999999999998,2835612,5.0,$106.289 billion,"$6,155",South America
+ Cambodia,16289270,0.21,1810352,2.5,$24.360 billion,"$1,559",Asia
+ Senegal,16209125,0.21,1967122,2.1,$24.240 billion ,"$1,485 ",Africa
+ Chad,15692969,0.2,12840002,1.9,$11 billion ,$890 ,Africa
+ Somalia,15636171,0.2,6376572,11031386.0,US$17.405 billion ,"US$1,671 ",Africa
+ Zimbabwe,15159624,0.2,3907572,1.0,$22.290 billion,"$1,424",Africa
+ South Sudan,12778250,0.17,6197452,12230730.0,$3.194 billion,$246,Africa
+ Rwanda,12374397,0.16,263382,5.3,$10.211 billion,$830,Africa
+ Guinea,12218357,0.16,2458362,0.0,$9.183 billion,$707,Africa
+ Benin,11733059,0.15,1147632,0.4,$10.546 billion ,$923 ,Africa
+ Haiti,11577779,0.15,277502,0.7,$7.897 billion ,$719 ,North America
+ Tunisia,11551448,0.15,1636102,5.0,$41.662 billion,"$3,573",Africa
+ Bolivia,11469896,0.15,10985812,1.29,$45.045 billion ,"$3,942 ",South America
+ Belgium,11460522,0.15,306882,6.4,$536 billion ,"$46,979 ",Europe
+ Cuba,11221060,0.15,1098842,0.94,US$ 96.851 billion ,"US$ 8,433 ",North America
+ Burundi,10953317,0.14,278342,10.0,$3.393 billion,$343,Africa
+ Greece,10741165,0.14,1319572,0.8669,$224.033 billion ,"$20,930 ",Europe
+ Czech Republic,10649800,0.14,788662,2.0,$264 billion ,"$24,938 ",Europe
+ Jordan,10400300,0.135,893422,0.6,$41.869 billion ,"$4,228 ",Asia
+ Portugal,10291027,0.13,922122,0.5,$239.473 billion,"$23,311",Europe
+ Sweden,10246901,0.13,4502952,8.7,$563 billion ,"$54,135 ",Europe
+ Azerbaijan,9981457,0.13,866002,1.6,$45.592 billion ,"$4,586 ",Europe
+ Hungary,9771000,0.13,930302,0.74,$164.527 billion ,"$16,905 ",Europe
+ Belarus,9475200,0.12,2075952,1.4,$60 billion,"$6,372",Europe
+ Honduras,9158345,0.12,1124922,9112867.0,$23.835 billion ,"$2,829 ",North America
+ Israel,9022470,0.11699999999999999,20770220722,2.1,$390.656 billion ,"$43,199 ",Asia
+ Tajikistan,8931000,0.12,1431002,1.8,$7.350 billion ,$807 ,Asia
+ Austria,8859992,0.12,838792,1.7,$477.672 billion ,"$53,764 ",Europe
+ Papua New Guinea,8558800,0.11,4628402,2.0,$21.543 billion ,"$2,504",Oceania
+ Switzerland,8542323,0.11,412852,4.2,$709 billion ,"$83,583 ",Europe
+ Sierra Leone,7901454,0.10300000000000001,717402,1.1,$3.824 billion,$505,Africa
+ Togo,7538000,0.098,567852,4.2,$4.797 billion,$621,Oceania
+ Paraguay,7152703,0.09300000000000001,4067522,2.3,$44.557 billion ,"$6,229 ",South America
+ Laos,7123205,0.092,2379552,2.0,$18.337 billion,"$2,706",Asia
+ Bulgaria,7000039,0.091,110993,2.16,$66.242 billion ,"$9,504 ",Europe
+ El Salvador,6704864,0.087,210412,1.5,$25.855 billion ,"$4,041 ",North America
+ Libya,6569864,0.085,17595412,6653210.0,$51.330 billion ,"$7,803",Africa
+ Nicaragua,6393824,0.083,1303752,7.14,$13.380 billion ,"$2,126 ",North America
+ Kyrgyzstan,6389500,0.083,1999512,3.6,$8.013 billion ,"$1,254 ",Asia
+ Lebanon,6065922,0.079,104522,1.8,$59 billion ,"$12,992",Asia
+ Turkmenistan,5942561,0.077,4912102,4.9,$42.764 billion,"$7,411",Asia
+ Singapore,5638700,0.073,722,5638700.0,$349.659 billion ,"$61,766 ",Asia
+ Republic of the Congo,5542197,0.07200000000000001,3420002,3.3,$9.210 billion,"$1,981",Africa
+ Finland,5522018,0.07200000000000001,3384242,10.0,$277 billion,"$50,068",Europe
+ Central African Republic,5496011,0.071,6229842,150.0,$2.003 billion,$401,Africa
+ Slovakia,5450421,0.071,490352,0.0789,$112.333 billion ,"$20,598 ",Europe
+ Norway,5328212,0.069,3852072,5.7,$443 billion ,"$82,711 ",Europe
+ Eritrea,5309659,0.069,1176002,0.14,$7.720 billion ,"$1,253 ",Africa
+ Costa Rica,5058007,0.066,511002,0.7,$63.948 billion,"$12,600",North America
+ New Zealand,4957870,0.0644,2680212,1.6,$206 billion,"$41,616",Oceania
+ Ireland,4857000,0.063,702732,2.0,$385 billion ,"$80,641 ",Europe
+ Oman,4688571,0.061,3095002,0.0,$81.682 billion ,"$19,170 ",Asia
+ Liberia,4475353,0.057999999999999996,1113692,13.514000000000001,$2.335 billion,$475,Africa
+ Kuwait,4226920,0.055,178182,0.0,$118.271 billion ,"$28,199 ",Asia
+ Panama,4218808,0.055,754172,2.9,$72.215 billion ,"$17,117 ",North America
+ Croatia,4105493,0.053,565942,1.09,$61.586 billion ,"$15,137 ",Europe
+ Mauritania,4077347,0.053,10300002,0.03,$5.200 billion ,"$1,309 ",Africa
+ Georgia,3729600,0.048,697002,3729600.0,$17.836 billion ,"$4,805 ",Europe
+ Uruguay,3518552,0.046,1762152,1.5,$60.231	 billion ,"$17,118 ",South America
+ Bosnia and Herzegovina,3502550,0.045,511292,1.4,$20.720 billion,"$5,917",Europe
+ Mongolia,3254209,0.042,15660002,0.67,$12.724 billion ,"$4,097 ",Asia
+ Armenia,2969200,0.039,297432,4.71,$13.302 billion ,"$4,446 ",Europe
+ Albania,2862427,0.037000000000000005,287482,4.7,$15.121 billion,"$5,261",Europe
+ Lithuania,2790322,0.036000000000000004,653002,1.35,$54 billion ,"$19,748 ",Europe
+ Qatar,2760586,0.036000000000000004,115812,0.8,$183.807 billion ,"$66,202 ",Asia
+ Jamaica,2726667,0.035,109912,1.5,$15.424 billion ,"$5,393 ",North America
+ Namibia,2458936,0.032,8256152,0.0,$14.148 billion,"$5,923",Africa
+ Botswana,2338851,0.03,5817302,2.6,$19.268 billion,"$8,634",Africa
+ The Gambia,2228075,0.028999999999999998,106892,11.5,$1.038 billion,$488,Africa
+ Gabon,2109099,0.027000000000000003,2676672,3.76,$17.212 billion,"$8,384",Africa
+ Slovenia,2076595,0.027000000000000003,202732,0.7,$56.920 billion ,"$27,506 ",Europe
+ North Macedonia,2075301,0.027000000000000003,257132,1.9,$12.383 billion,"$6,143",Oceania
+ Lesotho,2007201,0.026000000000000002,303552,0.0032,$2.721 billion,"$1,413",Africa
+ Latvia,1916200,0.025,645892,1.57,$35.780 billion,"$18,458",Europe
+ Kosovo,1798506,0.023,109082,1.0,$8.208 billion,"$4,491",Africa
+ Guinea-Bissau,1604528,0.021,361252,22.4,$1.480 billion,$851,Africa
+ Bahrain,1543300,0.02,778,0.0,$39.300 billion,"$26,531 ",Asia
+ East Timor,1387149,0.018000000000000002,154102,0.0,$3.145 billion,"$2,422",North America
+ Trinidad and Tobago,1359193,0.018000000000000002,51312,0.0,$22.438 billion,"$16,243",North America
+ Equatorial Guinea,1358276,0.018000000000000002,280502,0.0,$12.432 billion,"$9,141",Africa
+ Estonia,1323820,0.017,452272,4.45,$31.179 billion,"$23,514 ",Europe
+ Mauritius,1265577,0.016,20402,0.07,$14.889 billion ,"$11,640 ",Africa
+ Eswatini,1093238,0.013999999999999999,173642,0.9,$4.756 billion,"$4,092",South America
+ Djibouti,1078373,0.013999999999999999,232002,0.09,$2.187 billion,"$2,084",Africa
+ Fiji,884887,0.011000000000000001,182742,0.0,$5.223 billion,"$5,876",Oceania
+ Comoros,873724,0.011000000000000001,16592,0.0,$781 million ,$894 ,Africa
+ Guyana,786508,0.0102,2149702,8.4,$3.636 billion ,"$4,648 ",South America
+ Bhutan,741672,0.0096,383942,1.1,$2.547 billion,"$3,117 ",Asia
+ Solomon Islands,680806,0.0088,284002,3.2,$1.511 billion,"$2,357",Oceania
+ Montenegro,622359,0.0081,138122,2.6,$5.607 billion,"$8,988 ",Europe
+ Luxembourg,613894,0.008,2586,0.6,$77.436 billion ,"$125,364 ",Europe
+ Suriname,573085,0.0074,1638212,1.1,$4.110 billion,"$6,881",South America
+ Cape Verde,550483,0.0071,40332,0.0,$2.042 billion,"$3,651",Africa
+ Malta,475701,0.0062,3162,0.001,$14.270 billion,"$30,555",Europe
+ Transnistria,469000,0.0061,41632,2.35,US$1.0 billion,"US$2,000",Asia
+ Brunei,421300,0.0055,57652,8.6,$14.695 billion ,"$33,824 ",Asia
+ Belize,398050,0.0052,229662,0.8,$1.912 billion,"$4,906",North America
+ Bahamas,385340,0.005,138782,28.0,$9.529 billion,"$25,306",North America
+ Maldives,378114,0.0049,2982,427756.0,$4.825 billion,"$13,196",Asia
+ Iceland,357050,0.0046,1027752,2.7,$27 billion,"$75,700 ",Europe
+ Northern Cyprus,351965,0.0046,33552,2.7,$3.685 billion,"$12,702",Oceania
+ Vanuatu,304500,0.004,121892,270402.0,$957 million ,"$3,327 ",Oceania
+ Barbados,287010,0.0037,4392,0.0,$5.207 billion,"$18,133",North America
+ Abkhazia,244832,0.0032,86602,243206.0,US$0.5 billion,"US$2,000",Europe
+ São Tomé and Príncipe,201784,0.0026,10012,0.0,$355 million,"$1,668",North America
+ Samoa,200874,0.0026,28422,0.3,$881 million,"$4,420",Oceania
+ Saint Lucia,180454,0.0023,6172,1.6,$1.774 billion,"$10,042",North America
+ Curaçao ,160012,0.0021,4442,160012.0,US$5.6 billion ,"US$36,165 ",Europe
+ Kiribati,120100,0.0016,8112,110136.0,$187 million,"$1,599",Oceania
+ Saint Vincent and the Grenadines,109803,0.0014,3892,0.0,$864 million,"$7,827",North America
+ Grenada,108825,0.0014,348,1.6,$1.249 billion,"$11,518",North America
+ Federated States of Micronesia,105300,0.0014,7022,0.0,$383 million,"$3,735",Europe
+ Antigua and Barbuda,104084,0.0014,4402,0.0,$1.717 billion,"$18,416",North America
+ Tonga,100651,0.0013,7482,4.0,$493 million,"$4,888",Oceania
+ Seychelles,96762,0.0013,4592,0.0,$1.564 billion,"$16,332",Africa
+ Andorra,74794,0.001,467,0.26,$3.249 billion ,"$36,987 ",Europe
+ Dominica,74679,0.001,7502,1.6,$485 million,"$6,860",North America
+ Saint Kitts and Nevis,56345,0.0007,2612,0.0,$1.058 billion,"$18,714",North America
+ Marshall Islands,55500,0.00072,181,,$220 million,"$3,866",Oceania
+ South Ossetia,53532,0.0007,39002,0.0,US$0.1 billion,"US$2,000",Antarctica
+ Liechtenstein,38380,0.0005,1602,2.7,$5.155 billion ,"$143,151 ",Europe
+ Monaco,38300,0.0005,2,0.0,US$6.5 billion ,"US$168,000 ",Europe
+ San Marino,33419,0.00043,61,0.0,$1.55 billion ,"$44,947 ",Europe
+ Palau,17900,0.00022999999999999998,4592,0.0,$321 million,"$17,438",Oceania
+ Nauru,11000,0.00014,212,0.57,$114 million,"$8,570",Oceania
+ Tuvalu,10200,0.00013000000000000002,262,0.0,$32 million ,"$2,970 ",Oceania

@@ -37,7 +37,7 @@ https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/
 ## How to run tests
 1. While in conda, if not "conda activate", do a pip install -r requirements.txt
 2. Enter python SI507project_tools.py
-3. 
+3.
 NOTE: Need not have 3 steps, but should have as many as are appropriate!
 
 ## In this repository:
@@ -55,14 +55,14 @@ Please check the requirements you have accomplished in your code as demonstrated
 
 Below is a list of the requirements listed in the rubric for you to copy and paste.  See rubric on Canvas for more details..
 ### General
-- [ ] Project is submitted as a Github repository
+- [x] Project is submitted as a Github repository
 - [ ] Project includes a working Flask application that runs locally on a computer
 - [ ] Project includes at least 1 test suite file with reasonable tests in it.
-- [ ] Includes a `requirements.txt` file containing all required modules to run program
-- [ ] Includes a clear and readable README.md that follows this template
+- [x] Includes a `requirements.txt` file containing all required modules to run program
+- [x] Includes a clear and readable README.md that follows this template
 - [ ] Includes a sample .sqlite/.db file
-- [ ] Includes a diagram of your database schema
-- [ ] Includes EVERY file needed in order to run the project
+- [x] Includes a diagram of your database schema
+- [x] Includes EVERY file needed in order to run the project
 - [ ] Includes screenshots and/or clear descriptions of what your project should look like when it is working
 
 ### Flask Application
@@ -78,8 +78,8 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
 - [] A many-to-many relationship in your database structure
 - [] At least one form in your Flask application
-- [ ] Templating in your Flask application
-- [x] Inclusion of JavaScript files in the application
+- [] Templating in your Flask application
+- [] Inclusion of JavaScript files in the application
 - [x] Links in the views of Flask application page/s
 - [] Relevant use of `itertools` and/or `collections`
 - [x] Sourcing of data using web scraping

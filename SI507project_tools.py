@@ -155,3 +155,8 @@ dataset['Percentage Water'] = dataset['Percentage Water'].replace('Negligible', 
 dataset['Percentage Water'] = dataset['Percentage Water'].str.replace(r'[^0-9.]+', '')
 
 dataset.to_csv("Final_dataset.csv", index = False)
+
+
+continents=pd.read_csv("continents.csv")
+
+print(continents.head())
