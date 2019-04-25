@@ -2,7 +2,7 @@
 
 Name
 
-[Link to this repository](https://github.com/michellek1995/si507finalproject)
+[Link to this repository](__)
 
 ---
 
@@ -11,16 +11,20 @@ This project will have a home page that shows a number of countries recorded and
 
 There will be a form that one can enter in favorite country, its leadership/president, and continent and this will result in new database. When you type a '/country' you will get information from the list of countries database and the new info entered into the flask about its leadership, continent. New modules are urllib and re.
 
-database diagram:
 
-https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/edit?usp=sharing
+[Database Diagram](https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/edit?usp=sharing)
+
+
 
 
 ## How to run
 
-1. First, you should ... (e.g. install all requirements with `pip install -r requirements.txt`)
-2. Second, you should ... (e.g. run `python programname.py runserver` or whatever else is appropriate)
-3. Anything else
+1. First, while in the "base" virtual environment (default environment which conda itself is installed into, "root"), install all requirements with `pip install -r requirements.txt`
+2. Then, type in "python SI507project_tools.py" in the terminal while in the base virtual environment with new installed requirements
+3. Then, run newcountrycsv.py
+4. Then, run db.py (type "python db.py runserver" at terminal)
+5.
+6.
 
 ## How to use
 
@@ -56,21 +60,21 @@ Please check the requirements you have accomplished in your code as demonstrated
 Below is a list of the requirements listed in the rubric for you to copy and paste.  See rubric on Canvas for more details..
 ### General
 - [x] Project is submitted as a Github repository
-- [ ] Project includes a working Flask application that runs locally on a computer
+- [x] Project includes a working Flask application that runs locally on a computer
 - [ ] Project includes at least 1 test suite file with reasonable tests in it.
 - [x] Includes a `requirements.txt` file containing all required modules to run program
 - [x] Includes a clear and readable README.md that follows this template
-- [ ] Includes a sample .sqlite/.db file
+- [x] Includes a sample .sqlite/.db file
 - [x] Includes a diagram of your database schema
 - [x] Includes EVERY file needed in order to run the project
 - [ ] Includes screenshots and/or clear descriptions of what your project should look like when it is working
 
 ### Flask Application
-- [ ] Includes at least 3 different routes
-- [ ] View/s a user can see when the application runs that are understandable/legible for someone who has NOT taken this course
-- [ ] Interactions with a database that has at least 2 tables
+- [x] Includes at least 3 different routes
+- [x] View/s a user can see when the application runs that are understandable/legible for someone who has NOT taken this course
+- [x] Interactions with a database that has at least 2 tables
 - [x] At least 1 relationship between 2 tables in database
-- [ ] Information stored in the database is viewed or interacted with in some way
+- [x] Information stored in the database is viewed or interacted with in some way
 
 ### Additional Components (at least 6 required)
 - [x] Use of a new module
@@ -78,9 +82,9 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
 - [] A many-to-many relationship in your database structure
 - [] At least one form in your Flask application
-- [] Templating in your Flask application
+- [x] Templating in your Flask application
 - [] Inclusion of JavaScript files in the application
-- [] Links in the views of Flask application page/s
+- [x] Links in the views of Flask application page/s
 - [] Relevant use of `itertools` and/or `collections`
 - [x] Sourcing of data using web scraping
 - [ ] Sourcing of data using web REST API requests

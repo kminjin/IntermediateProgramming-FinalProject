@@ -47,9 +47,6 @@ class Country(db.Model):
 
 
 
-
-
-
 def get_continent(file):
     csvfile=open(file, "r", encoding='UTF-8')
     reader=csv.reader(csvfile)
@@ -73,9 +70,6 @@ def get_country(file):
         session.add(country_info)
         session.commit()
 
-# continentid = Continent.query.filter_by(continent=row[7]).first().id
-# print(continentid)
-
 
 ##### Set up Controllers (route functions) #####
 
@@ -83,35 +77,34 @@ def get_country(file):
 #
 @app.route('/')
 def index():
-    return '<h1> Hello, everyone!</h1>'
+    return render_template('index.html')
 
-# #
-# @app.route('/new/movie/<title>/<director>/<releaseDate>')
-# def new_movie(title, director, releaseDate):
-#     if Movie.query.filter_by(title=title).first(): # if there is a song by that title
-#         return "That movie already exists! Go back to the main app!"
-#     else:
-#         director = get_or_create_director(director)
-#         movie = Movie(title=title, director_id=director.id,releaseDate=releaseDate)
-#         session.add(movie)
-#         session.commit()
-#         return "New movie: {} by {}. Check out the /all_movies for ALL movies to see the whole list.".format(movie.title, director.name)
-#
-# #
-# @app.route('/all_movies')
-# def see_all():
-#     all_movies=[]
-#     movies= Movie.query.all()
-#     for m in movies:
-#         director=Director.query.filter_by(id=m.director_id).first()
-#         all_countries.append((m.title,director.name, m.releaseDate))
-#     return render_template('all_movies.html',all_movies=all_movies)
-#
-#
+
+
+@app.route('/all_continents')
+def all_continents():
+    all_continents=[]
+    continents=Continent.query.all()
+    for c in continents:
+        continent=Continent.query.filter_by(id=c.id).first()
+        all_continents.append((c.id, c.continent))
+    return render_template('all_continents.html', all_continents=all_continents)
+
+@app.route('/all_countries')
+def all_countries():
+    all_countries=[]
+    countries=Country.query.all()
+    for c in countries:
+        country=Country.query.filter_by(id=c.id).first()
+        all_countries.append((c.country, c.Population,c.population_percentage, c.continentID))
+    return render_template('all_countries.html', all_countries=all_countries)
+
+
+
+
 if __name__ == '__main__':
     db.create_all() # This will create database in current directory, as set up, if it doesn't exist, but won't overwrite if you restart - so no worries about that
     get_continent("final_countriesDB.csv")
     get_country("final_countriesDB.csv")
-
     # get_continent("final_continentsDB.csv")
     app.run() # run with this: python main_app.py runserver

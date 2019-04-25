@@ -1,0 +1,18 @@
+Possible Routes:
+<ul>
+<a href="{{ url_for('index')}}">Return to Home Page</a><br>
+<a href="{{ url_for('all_continents')}}"> View Continent ID</a><br>
+</ul>
+<ol>
+{% for sg in all_countries %}
+<li>{{ sg[0] }} has a population of {{ sg[1] }}, which is {{ sg[2] }}% of the world population, and it belongs to continent {{ sg[3] }}.</li><br>
+{% endfor %}
+</ol>
+<br> Total of 192 Countries!<br>
+
+{% if not all_countries %}
+There are no countries to show. Please email minjin@umich.edu
+{% endif %}
+
+
+<br><a href="{{ url_for('index')}}">Return to home page</a>

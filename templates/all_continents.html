@@ -1,0 +1,17 @@
+<ul>
+{% for sg in all_continents %}
+<li>{{ sg[0] }} is ID for {{ sg[1] }}</li><br>
+{% endfor %}
+</ul>
+
+{% if not all_continents %}
+There is an error. Please email minjin@umich.edu
+{% endif %}
+
+
+There are seven continents! <br>
+
+<br>
+You can either return to <a href="{{ url_for('index')}}">Home Page</a>
+<br>
+Or <a href="{{ url_for('all_countries')}}">View All Countries</a>
