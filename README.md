@@ -1,15 +1,14 @@
-# Project Title
+# SI 507 Final Project: Flask Application Which Allows You to View Countries and Continents.
 
-Name
+by Min Jin Kim
 
-[Link to this repository](__)
+[Link to this repository](https://github.com/michellek1995/finalproject)
 
 ---
 
 ## Project Description
-This project will have a home page that shows a number of countries recorded and a list of countries.
+I scraped my data from a wikipedia page with a list of countries then went into each link and also scraped data for each country. I found a csv with list of countries and continents. I then merged a column of continents in the continents.csv with the cleaned country csv and created a new csv to transfer information into a database. Then from the same csv, I created a separate table of continents where which continent was given an id. I then connected the tables by the ids of continents going into the table of countries. My Flask app has three routes index, all_continents which displays all continents and their ID using a template, and all_countries which displays all countries, population, and percentage of world population using a template.
 
-There will be a form that one can enter in favorite country, its leadership/president, and continent and this will result in new database. When you type a '/country' you will get information from the list of countries database and the new info entered into the flask about its leadership, continent. New modules are urllib and re.
 
 
 [Database Diagram](https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/edit?usp=sharing)
@@ -19,37 +18,36 @@ There will be a form that one can enter in favorite country, its leadership/pres
 
 ## How to run
 
-1. First, while in the "base" virtual environment (default environment which conda itself is installed into, "root"), install all requirements with `pip install -r requirements.txt`
-2. Then, type in "python SI507project_tools.py" in the terminal while in the base virtual environment with new installed requirements
-3. Then, run newcountrycsv.py
-4. Then, run db.py (type "python db.py runserver" at terminal)
-5.
-6.
+1. First, while in the "base" virtual environment (default environment which conda itself is installed into, "root"), install all requirements with `pip install -r requirements.txt` If this does not work,go into Anaconda Navigator, go to the root environment and click non installed packages and activate the required packages manually.
+2. Then, type in "python SI507project_tools.py" in the terminal while in the base virtual environment with new installed requirements. This will create the country table.
+3. Then, run newcountrycsv.py which will create a new merged csv for a database.
+4. Then, run db.py (type "python db.py runserver" at terminal) which will create the database with two tables and set up flask.
 
 ## How to use
 
-1. A useful instruction goes here
-2. A useful second step here
+1. There are links in the homepage for easy navigation.
+2. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
 3. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
 
 ## Routes in this application
-- `/home` -> This page will show Links in the views of Flask application pages
+- `/` -> The index will display Links in the views of Flask application pages
+- `/all_countries` -> this route displays all the countries, its population, and population %.
+- `/all_continents` -> this route displays all the continents and its IDs.
 
-- `/result` -> this route is where the form sends the result...
-- `/newuser/<username>` -> hello ___
 
 ## How to run tests
 1. While in conda, if not "conda activate", do a pip install -r requirements.txt
-2. Enter python SI507project_tools.py
-3.
-NOTE: Need not have 3 steps, but should have as many as are appropriate!
+2. Enter python SI507project_tests.py
 
 ## In this repository:
-- Directory Name
-  - SI507project_tests.py
-  - SI507project_tools.py
-- File name
-- File name
+- SI507project_tests.py
+- SI507project_tools.py
+- README.md
+- advanced_expiry_caching.py
+- continents.csv (downloaded from https://datahub.io/JohnSnowLabs/country-and-continent-codes-list)
+- dp.py
+- newcountrycsv.py
+- requirements.txt
 
 ---
 ## Code Requirements for Grading
