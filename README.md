@@ -26,7 +26,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 ## How to use
 
 1. There are links in the homepage for easy navigation.
-2. [Database Diagram](https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/edit?usp=sharing)
+2. [Images of What it Should Look Like](https://docs.google.com/document/d/1YHDa3UZ9aVQ0296dTtxULEnaPoyW0w13pNoFnmTrSIg/edit?usp=sharing)
 
 
 ## Routes in this application
@@ -36,8 +36,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 
 
 ## How to run tests
-1. While in conda, if not "conda activate", do a pip install -r requirements.txt
-2. Enter python SI507project_tests.py
+1. Enter python SI507project_tests.py
 
 ## In this repository:
 - SI507project_tests.py
@@ -48,6 +47,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 - dp.py
 - newcountrycsv.py
 - requirements.txt
+- countries.db
 
 ---
 ## Code Requirements for Grading
@@ -75,20 +75,14 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [x] Information stored in the database is viewed or interacted with in some way
 
 ### Additional Components (at least 6 required)
-- [x] Use of a new module
-- [x] Use of a second new module
-- [] Object definitions using inheritance (indicate if this counts for 2 or 3 of the six requirements in a parenthetical)
-- [] A many-to-many relationship in your database structure
-- [] At least one form in your Flask application
+- [x] Use of a new module URLOPEN
+- [x] Use of a second new module RE
 - [x] Templating in your Flask application
-- [] Inclusion of JavaScript files in the application
 - [x] Links in the views of Flask application page/s
-- [] Relevant use of `itertools` and/or `collections`
-- [x] Sourcing of data using web scraping
-- [ ] Sourcing of data using web REST API requests
-- [x] Sourcing of data using user input and/or a downloaded .csv or .json dataset
+- [x] Sourcing of data using web scraping WIKIPEDIA
+- [x] Sourcing of data using user input and/or a downloaded .csv or .json dataset CSV
 - [x] Caching of data you continually retrieve from the internet in some way
 
 ### Submission
-- [ ] I included a link to my GitHub repository with the correct permissions on Canvas! (Did you though? Did you actually? Are you sure you didn't forget?)
-- [ ] I included a summary of my project and how I thought it went **in my Canvas submission**!
+- [x] I included a link to my GitHub repository with the correct permissions on Canvas! (Did you though? Did you actually? Are you sure you didn't forget?)
+- [x] I included a summary of my project and how I thought it went **in my Canvas submission**!
