@@ -26,8 +26,8 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 ## How to use
 
 1. There are links in the homepage for easy navigation.
-2. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
-3. (Optional): Markdown syntax to include an screenshot/image: ![alt text](image.jpg)
+2. [Database Diagram](https://docs.google.com/document/d/1SjZxCZpYq6sDtC8OhyiG4sWar8sjkY6VpvgeVPiammQ/edit?usp=sharing)
+
 
 ## Routes in this application
 - `/` -> The index will display Links in the views of Flask application pages
@@ -65,7 +65,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [x] Includes a sample .sqlite/.db file
 - [x] Includes a diagram of your database schema
 - [x] Includes EVERY file needed in order to run the project
-- [ ] Includes screenshots and/or clear descriptions of what your project should look like when it is working
+- [x] Includes screenshots and/or clear descriptions of what your project should look like when it is working
 
 ### Flask Application
 - [x] Includes at least 3 different routes
