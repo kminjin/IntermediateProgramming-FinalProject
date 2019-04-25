@@ -118,9 +118,9 @@ dataset.columns = headers
 drop_columns = ['Rank', 'Date', 'Source']
 dataset.drop(drop_columns, axis = 1, inplace = True)
 
-dataset.to_csv("Dataset.csv", index = False)
+dataset.to_csv("originalcountries.csv", index = False)
 
-dataset = pd.read_csv("Dataset.csv")
+dataset = pd.read_csv("originalcountries.csv")
 dataset.rename(columns={'Country(or dependent territory)': 'Country'}, inplace = True)
 dataset.rename(columns={'% of worldpopulation': 'Percentage of World Population'}, inplace = True)
 dataset.rename(columns={'Total Area': 'Total Area (km2)'}, inplace = True)
@@ -154,9 +154,4 @@ dataset['Percentage Water'] = dataset['Percentage Water'].replace('negligible', 
 dataset['Percentage Water'] = dataset['Percentage Water'].replace('Negligible', '0.0')
 dataset['Percentage Water'] = dataset['Percentage Water'].str.replace(r'[^0-9.]+', '')
 
-dataset.to_csv("Final_dataset.csv", index = False)
-
-
-continents=pd.read_csv("continents.csv")
-
-print(continents.head())
+dataset.to_csv("cleaned_countries.csv", index = False)

@@ -69,7 +69,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [ ] Includes at least 3 different routes
 - [ ] View/s a user can see when the application runs that are understandable/legible for someone who has NOT taken this course
 - [ ] Interactions with a database that has at least 2 tables
-- [ ] At least 1 relationship between 2 tables in database
+- [x] At least 1 relationship between 2 tables in database
 - [ ] Information stored in the database is viewed or interacted with in some way
 
 ### Additional Components (at least 6 required)
@@ -80,7 +80,7 @@ Below is a list of the requirements listed in the rubric for you to copy and pas
 - [] At least one form in your Flask application
 - [] Templating in your Flask application
 - [] Inclusion of JavaScript files in the application
-- [x] Links in the views of Flask application page/s
+- [] Links in the views of Flask application page/s
 - [] Relevant use of `itertools` and/or `collections`
 - [x] Sourcing of data using web scraping
 - [ ] Sourcing of data using web REST API requests

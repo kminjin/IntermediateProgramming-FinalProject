@@ -4,7 +4,7 @@ from flask import Flask, render_template, session, redirect, url_for
 # handles database stuff for us - need to pip install flask_sqlalchemy in your virtual env, environment, etc to use this and run this
 from flask_sqlalchemy import SQLAlchemy
 import sqlite3
-from settinguptable import *
+from newcountrycsv import *
 
 # Application configurations
 app = Flask(__name__)
@@ -21,7 +21,14 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app) # For database use
 session = db.session # to make queries easy
 
-collections = db.Table('collections',db.Column('continents_id',db.Integer, db.ForeignKey('continents.id')))
+collections = db.Table('collections',db.Column('continents_id',db.String(64), db.ForeignKey('continents.id')))
+
+
+class Continent(db.Model):
+    __tablename__="continents"
+    id = db.Column(db.Integer, primary_key=True)
+    continent=db.Column(db.String(64))
+    country= db.relationship("Country", backref='World')
 
 class Country(db.Model):
     id = db.Column(db.Integer, primary_key=True)
@@ -32,38 +39,42 @@ class Country(db.Model):
     water_percentage=db.Column(db.String(64))
     totalGDP=db.Column(db.String(64))
     capitaGDP=db.Column(db.String(64))
-    continent=db.Column(db.String(64), db.ForeignKey("continents.id"))
+    continent=db.Column(db.String(64))
+    continentID=db.Column(db.Integer, db.ForeignKey("continents.id"))
 
     def __repr__(self):
         return "{} has {} people and is {} km^2 big".format(self.country,self.population, self.area)
 
 
-class Continents(db.Model):
-    __tablename__="continents"
-    id = db.Column(db.Integer, primary_key=True)
-    continent=db.Column(db.String(64))
-    countries= db.relationship("Country", backref='World')
 
+
+
+
+def get_continent(file):
+    csvfile=open(file, "r", encoding='UTF-8')
+    reader=csv.reader(csvfile)
+    header=next(csvfile)
+    for row in reader:
+        continent_info= Continent.query.filter_by(continent=row[7]).first()
+        if not continent_info:
+            continent_info=Continent(continent=row[7])
+            session.add(continent_info)
+            session.commit()
 
 def get_country(file):
     csvfile=open(file, "r", encoding='UTF-8')
     reader=csv.reader(csvfile)
-    hesder=next(csvfile)
-
+    header=next(csvfile)
     for row in reader:
         country_info= Country.query.filter_by(country=row[0]).first()
         if not country_info:
-            country_info=Country(country=row[0],Population=row[1], population_percentage=row[2],Area=row[3],water_percentage=row[4],totalGDP=row[5],capitaGDP=row[6],continent=row[7])
+            continentid = Continent.query.filter_by(continent=row[7]).first().id
+            country_info=Country(country=row[0],Population=row[1], population_percentage=row[2],Area=row[3],water_percentage=row[4],totalGDP=row[5],capitaGDP=row[6],continent=row[7], continentID=continentid)
         session.add(country_info)
         session.commit()
 
-
-# with open("new_countriestable.csv", "r") as csv_file:
-#     contents=csv_file.readlines()
-#     inforeq=contents[1:]
-#
-# for row in inforeq:
-
+# continentid = Continent.query.filter_by(continent=row[7]).first().id
+# print(continentid)
 
 
 ##### Set up Controllers (route functions) #####
@@ -99,5 +110,8 @@ def index():
 #
 if __name__ == '__main__':
     db.create_all() # This will create database in current directory, as set up, if it doesn't exist, but won't overwrite if you restart - so no worries about that
-    get_country("new_countriestable.csv")
+    get_continent("final_countriesDB.csv")
+    get_country("final_countriesDB.csv")
+
+    # get_continent("final_continentsDB.csv")
     app.run() # run with this: python main_app.py runserver
