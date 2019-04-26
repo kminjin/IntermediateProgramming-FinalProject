@@ -19,7 +19,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 ## How to run
 
 1. First, while in the "base" virtual environment (default environment which conda itself is installed into, "root"), install all requirements with `pip install -r requirements.txt` If this does not work,go into Anaconda Navigator, go to the root environment and click non installed packages and activate the required packages manually.
-2. Then, type in "python SI507project_tools.py" in the terminal while in the base virtual environment with new installed requirements. This will create the country table.
+2. Then, type in "python SI507project_tools.py" in the terminal while in the base virtual environment with new installed requirements. This will create the country table. This will take ~5 minutes at most.
 3. Then, run newcountrycsv.py which will create a new merged csv for a database.
 4. Then, run db.py (type "python db.py runserver" at terminal) which will create the database with two tables and set up flask.
 
@@ -27,6 +27,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 
 1. There are links in the homepage for easy navigation.
 2. [Images of What it Should Look Like](https://docs.google.com/document/d/1YHDa3UZ9aVQ0296dTtxULEnaPoyW0w13pNoFnmTrSIg/edit?usp=sharing)
+Contains routes, db, csv images
 
 
 ## Routes in this application
@@ -36,7 +37,7 @@ I scraped my data from a wikipedia page with a list of countries then went into 
 
 
 ## How to run tests
-1. Enter python SI507project_tests.py
+1. Enter python SI507project_tests.py however, I am unsure if I did this part correctly! 
 
 ## In this repository:
 - SI507project_tests.py
